@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '!_a(hcfogl!7womb(8$dpb#5o7y17*
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://mighty-falls-33348.herokuapp.com/', '127.0.0.1']
 
 # Application definition
 
